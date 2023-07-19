@@ -1,4 +1,8 @@
 
+# Steps for installation
+1. yarn
+2. yarn android
+
 # ReactJS Concepts
 1. Class Components
 2. Functional Components
