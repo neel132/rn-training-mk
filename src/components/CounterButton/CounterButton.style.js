@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
 		fontSize: 24,
 		fontWeight: 'bold',
 		textDecorationLine: 'underline',
+		paddingBottom: 10,
 	}
 });
 

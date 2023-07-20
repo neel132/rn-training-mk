@@ -40,3 +40,11 @@ There are two ways in which styling works
 1. React Native Paper - https://callstack.github.io/react-native-paper/docs/components/Chip/
 2. React Native Elements - https://reactnativeelements.com/docs
 
+```
+Note: To convert .css to react-native style you can use this - 
+https://staxmanade.com/CssToReact/
+```
+
+# Navigation
+**Setting up navigation**
+1. https://reactnavigation.org/docs/getting-started/
