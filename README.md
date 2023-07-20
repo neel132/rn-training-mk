@@ -35,3 +35,8 @@ There are two ways in which styling works
 **II Inline StyleSheet**
 	a. We are allowed to write object inside the style prop for each valid component
 	Syntax: <View style={{ borderWidth: 1 }}>
+
+***UI Framework:***
+1. React Native Paper - https://callstack.github.io/react-native-paper/docs/components/Chip/
+2. React Native Elements - https://reactnativeelements.com/docs
+
