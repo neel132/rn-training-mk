@@ -14,7 +14,7 @@ import Home from './src/screens/Home/Home.func';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1,}}>
       <Home />
     </SafeAreaView>
   );

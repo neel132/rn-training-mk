@@ -21,3 +21,17 @@
 3. **TouchableOpacity** (if you want to make any area clickable you wrap with TouchableOpacity, it brings down the opacity of that area)
 4. **FlatList** (you can optimise your list using this.)
 5. **Image** (it helps to show the image either remote or local)
+
+# Styling with React Native
+There are two ways in which styling works
+1. Using StyleSheet
+2. Without using StyleSheet (also acts as inline styling),
+
+**I. Using StyleSheet**
+	a. We need to import StyleSheet from react-native library
+	b. For creating styles we need to use create method from StyleSheet
+	Syntax: const styles = StyleSheet.create({})
+
+**II Inline StyleSheet**
+	a. We are allowed to write object inside the style prop for each valid component
+	Syntax: <View style={{ borderWidth: 1 }}>

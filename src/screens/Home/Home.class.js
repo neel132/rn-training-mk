@@ -1,7 +1,7 @@
 // Example for class component
 import React, { Component } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import CounterButton from '../../components/CounterButton';
+import CounterButton from '../../components/CounterButton/CounterButton';
 
 // State - State is mutable
 // Props - Props is immutable

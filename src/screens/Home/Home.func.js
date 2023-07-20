@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import CounterButton from "../../components/CounterButton";
+import CounterButton from "../../components/CounterButton/CounterButton";
 import CustomList from "../../components/CustomList";
 import CustomImage from "../../components/CustomImage";
+import { View } from "react-native";
 const DATA = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
@@ -32,8 +33,10 @@ const Home = () => {
 	}
 	return (
 		// <CustomList data={DATA} />
-		<CustomImage />
-		// <CounterButton counterValue={counter} onIncrement={incrementCounter} />
+		// <CustomImage />
+		<View style={{flex :1,}}>
+		<CounterButton counterValue={counter} onIncrement={incrementCounter} />
+		</View>
 	)
 }
 
