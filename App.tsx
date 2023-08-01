@@ -20,8 +20,12 @@ const Stack = createNativeStackNavigator();
 function App(): JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen component={Home} name='Home' />
+      <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen component={Home} name='Home'
+        options={{
+          headerShown: false,
+        }}
+        />
         <Stack.Screen component={List} name='List' />
       </Stack.Navigator>
     </NavigationContainer>
