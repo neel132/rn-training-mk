@@ -48,3 +48,7 @@ https://staxmanade.com/CssToReact/
 # Navigation
 **Setting up navigation**
 1. https://reactnavigation.org/docs/getting-started/
+
+**Setting up Native Stack**
+Native Stack brings feel of native navigation to your Stack Navigator
+Reference - https://reactnavigation.org/docs/native-stack-navigator
