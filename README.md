@@ -52,3 +52,9 @@ https://staxmanade.com/CssToReact/
 **Setting up Native Stack**
 Native Stack brings feel of native navigation to your Stack Navigator
 Reference - https://reactnavigation.org/docs/native-stack-navigator
+
+**Setting up Drawer Navigator**
+Documentation - https://reactnavigation.org/docs/drawer-navigator/
+
+Note - If you want to use reanimated v2 or above, do follow this installation guide - https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation
+
