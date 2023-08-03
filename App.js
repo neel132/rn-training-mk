@@ -13,7 +13,7 @@ import List from './src/screens/ListScreen/List';
 // const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
-function App(): JSX.Element {
+function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator>

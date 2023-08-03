@@ -3,6 +3,7 @@ import CounterButton from "../../components/CounterButton/CounterButton";
 import CustomList from "../../components/CustomList";
 import CustomImage from "../../components/CustomImage";
 import { Button, View } from "react-native";
+import CustomDropDownPicker from "../../components/CustomDropDownPicker";
 
 // Basic structure of the functional components
 const Home = (props) => {
@@ -25,11 +26,17 @@ const Home = (props) => {
 	return (
 		// <CustomList data={DATA} />
 		// <CustomImage />
-		<View style={{flex :1, marginBottom: 10,}}>
-			<CounterButton counterValue={counter} onIncrement={incrementCounter} />
+		<View style={{flex: 1, borderWidth: 1,}}>
+			<CustomDropDownPicker />
+			{/* <CounterButton counterValue={counter} onIncrement={incrementCounter} /> */}
 			<Button title="See List" onPress={navigateToListScreen}/>
 		</View>
 	)
 }
 
 export default Home;
+
+/* 
+Flexbox - 0 - 1
+
+*/
