@@ -9,6 +9,7 @@ import Home from './src/screens/Home/Home.func';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import List from './src/screens/ListScreen/List';
+import Employee from './src/screens/Employee/Employee';
 
 // const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -17,6 +18,7 @@ function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator>
+        <Drawer.Screen component={Employee} name='Employee' />
         <Drawer.Screen component={Home} name='Home' />
         <Drawer.Screen component={List} name="List" />
       </Drawer.Navigator>
