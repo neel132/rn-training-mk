@@ -58,3 +58,33 @@ Documentation - https://reactnavigation.org/docs/drawer-navigator/
 
 Note - If you want to use reanimated v2 or above, do follow this installation guide - https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation
 
+# Redux
+Redux - is a global state management library
+
+Without Redux -
+Component - local state
+Component - local state
+Component - local state
+
+With Redux -
+Global State => Components
+						 => Components
+						 => Components
+
+----------------------------------------------------------------
+
+Redux = reducer + action + Store (which has initial state)
+
+Reducer => 
+1. Initial State
+2. name
+3. Actions => it is nothing but the function which manuplates the state
+
+Action => 
+it is nothing but the function which manuplates the state
+
+Store =>
+Multiple Reducers
+* After creating store, the app need to be wrapped with it.
+----------------------------------------------------------------
+
