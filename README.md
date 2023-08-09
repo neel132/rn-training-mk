@@ -88,3 +88,5 @@ Multiple Reducers
 * After creating store, the app need to be wrapped with it.
 ----------------------------------------------------------------
 
+# Redux Persist
+Please refer store.js for comments and example
