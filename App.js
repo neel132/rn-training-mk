@@ -11,8 +11,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import List from './src/screens/ListScreen/List';
 import Employee from './src/screens/Employee/Employee';
 import { Provider } from 'react-redux';
-import { store } from './src/redux/store';
+import { persistor, store } from './src/redux/store';
 import Counter from './src/screens/Counter/Counter';
+import { PersistGate } from 'redux-persist/integration/react';
 
 // const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -20,22 +21,24 @@ const Drawer = createDrawerNavigator();
 function App() {
   return (
     <Provider store={store}>
-      <NavigationContainer>
-        <Drawer.Navigator>
-          <Drawer.Screen component={Counter} name='Counter' />
-          <Drawer.Screen component={Employee} name='Employee' />
-          <Drawer.Screen component={Home} name='Home' />
-          <Drawer.Screen component={List} name="List" />
-        </Drawer.Navigator>
-        {/* <Stack.Navigator initialRouteName='Home'>
-          <Stack.Screen component={Home} name='Home'
-          options={{
-            headerShown: false,
-          }}
-          />
-          <Stack.Screen component={List} name='List' />
-        </Stack.Navigator> */}
-      </NavigationContainer>
+      <PersistGate persistor={persistor} loading={null}>
+        <NavigationContainer>
+          <Drawer.Navigator>
+            <Drawer.Screen component={Counter} name='Counter' />
+            <Drawer.Screen component={Employee} name='Employee' />
+            <Drawer.Screen component={Home} name='Home' />
+            <Drawer.Screen component={List} name="List" />
+          </Drawer.Navigator>
+          {/* <Stack.Navigator initialRouteName='Home'>
+            <Stack.Screen component={Home} name='Home'
+            options={{
+              headerShown: false,
+            }}
+            />
+            <Stack.Screen component={List} name='List' />
+          </Stack.Navigator> */}
+        </NavigationContainer>
+      </PersistGate>
     </Provider>
   );
 }
