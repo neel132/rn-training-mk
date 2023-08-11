@@ -98,3 +98,6 @@ Steps -
 2. Configure your app/build.gradle with release config
 3. run the release command - ./gradlew bundleRelease inside android folder
 4. On successful build, aab will found in android/app/build/outputs/bundle/release/app-release.aab
+
+# Publishing to App Store
+1. 
