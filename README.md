@@ -101,3 +101,7 @@ Steps -
 
 # Publishing to App Store
 1. 
+
+# Integration of Firebase
+Reference - https://firebase.google.com/
+Reference Library - https://rnfirebase.io/
